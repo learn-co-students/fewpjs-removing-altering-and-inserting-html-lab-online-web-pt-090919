@@ -2,10 +2,11 @@
 let element = document.querySelector('main#main');
 element.remove()
 
-let newHeader = document.createElement('h1#victory');
-newHeader.nodeName = 'H1';
+let newHeader = document.createElement('h1');
+newHeader.className = 'victory';
 newHeader.id = 'victory';
-newHeader.innerHTML = '<h1>Emil is the champion</h1>'
+newHeader.innerHTML = 'Emil is the champion'
+
 
 
 
